@@ -15,6 +15,6 @@ allprojects {
 dependencies {
     // 扩展包需要在有主框架的情况下使用
     implementation 'com.github.dora4:dcache-android:2.3.13'
-    implementation 'com.github.dora4:dcache-solr-support:1.0'
+    implementation 'com.github.dora4:dcache-solr-support:1.1'
 }
 ```
