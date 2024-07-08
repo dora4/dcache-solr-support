@@ -8,6 +8,6 @@ import retrofit2.http.Query
 
 interface SolrService<T> : ApiService {
 
-    @GET("/select")
+    @GET("select")
     fun select(@Query("q") q: String) : Call<SolrResult<T>>
 }
